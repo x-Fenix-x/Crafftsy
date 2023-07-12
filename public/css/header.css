@@ -1,0 +1,21 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--colorNaranja);
+  align-items: center;
+}
+
+.header__barra {
+  width: 60%;
+  padding: 5px;
+  margin-left: 10px;
+}
+
+.header-nav {
+  display: flex;
+  margin-right: 10px;
+}
+
+.fa-solid {
+  margin-left: 10px;
+}

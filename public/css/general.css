@@ -1,20 +1,26 @@
+:root {
+  --colorNaranja: #FF4E46;
+  --letraBoton: #FFFFFF;
+  --colorBordes: #ACD8E6;
+}
+
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 li {
-    list-style: none;
+  list-style: none;
 }
 
 a {
-    text-decoration: none;
-    color: #000000;
+  text-decoration: none;
+  color: #000000;
 }
 
 body {
-    font-family: 'lato';
-    background-color: Ivory;
-    color: #1C2833;
+  font-family: 'lato';
+  background-image: url('/img/bg-2.png');
+  color: #1c2833;
 }

@@ -4,7 +4,7 @@ const path = require("path");
 const PORT = 3030;
 
 /* configuraciones */
-app.use(express.static(path.resolve(__dirname, "public")));
+app.use(express.static(path.join(__dirname, "public")));
 
 /* rutas */
 app.get("/", (req, res) =>

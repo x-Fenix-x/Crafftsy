@@ -1,0 +1,96 @@
+body.home {
+  background-image: url(/img/bg-2.png);
+  width: 100%;
+  min-height: 100vh;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+}
+
+.main-section {
+  background-color: #ffffff;
+}
+
+.section-article__productos {
+  width: 100%;
+  padding: 5px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.section-article__img,
+.aside-contenido__publicidad {
+  width: 100%;
+}
+
+.section-article__titulo {
+  padding: 5px 0;
+  font-size: 14px;
+  font-weight: 900;
+}
+
+.section-article__parrafo {
+  font-size: 12px;
+  width: 100%;
+  flex-wrap: nowrap;
+}
+
+.section-article__ver-mas {
+  margin: 10px 0;
+  padding: 6px;
+  display: inline-block;
+  background-color: var(--colorNaranja);
+  color: #ffffff;
+  font-size: 12px;
+}
+
+.main__titulos {
+  background-color: #ffffff;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: solid 1px var(--colorBordes);
+  font-size: 12px;
+  padding: 5px;
+}
+
+.aside-contenido {
+  width: 100%;
+  background-color: #ffffff;
+  padding: 5px;
+}
+
+.aside-contenido__publicidad:not(:last-child) {
+  margin-bottom: 5px;
+}
+
+.section-article__tutorial {
+  width: 100%;
+  height: 70px;
+  background-color: #ffffff;
+  margin-bottom: 1px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border: solid 1px var(--colorBordes);
+}
+
+.section-article__tutorial-img {
+  width: 35%;
+  height: 80%;
+  padding: 5px;
+}
+
+.section-article__tutorial-titulo {
+  font-size: 10px;
+}
+
+.aside {
+  display: none;
+}
