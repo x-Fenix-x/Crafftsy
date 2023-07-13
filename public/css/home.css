@@ -26,7 +26,7 @@ body.home {
 }
 
 .section-article__img,
-.publicidad__img {
+.publi__img {
   width: 100%;
 }
 
@@ -60,12 +60,12 @@ body.home {
   padding: 5px;
 }
 
-.publicidad {
+.publi {
   width: 100%;
   padding: 5px;
 }
 
-.publicidad__img:not(:last-child) {
+.publi__img:not(:last-child) {
   margin-bottom: 5px;
 }
 
@@ -115,13 +115,13 @@ body.home {
   }
 
   /* PUBLICIDAD */
-  .publicidad {
+  .publi {
     display: flex;
     background-color: unset;
     justify-content: space-around;
   }
 
-  .publicidad__img {
+  .publi__img {
     width: 45%;
     margin-bottom: 5px;
   }
@@ -147,7 +147,7 @@ body.home {
 @media (min-width: 1024px) {
   main .home-titulo,
   main .tutoriales,
-  main .publicidad {
+  main .publi {
     display: none;
   }
 
@@ -173,12 +173,12 @@ body.home {
     margin-bottom: 0;
   }
 
-  .publicidad {
+  .publi {
     display: flex;
     flex-direction: column;
   }
 
-  .publicidad {
+  .publi {
     flex-direction: column;
   }
 }
