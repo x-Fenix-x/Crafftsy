@@ -177,8 +177,4 @@ body.home {
     display: flex;
     flex-direction: column;
   }
-
-  .publi {
-    flex-direction: column;
-  }
 }
