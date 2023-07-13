@@ -11,7 +11,6 @@ body.home {
   margin-top: 10px;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 10px;
 }
 
 .main-section {
@@ -26,7 +25,7 @@ body.home {
 }
 
 .section-article__img,
-.aside-contenido__publicidad {
+.publicidad__img {
   width: 100%;
 }
 
@@ -60,13 +59,13 @@ body.home {
   padding: 5px;
 }
 
-.aside-contenido {
+.publicidad {
   width: 100%;
   background-color: #ffffff;
   padding: 5px;
 }
 
-.aside-contenido__publicidad:not(:last-child) {
+.publicidad__img:not(:last-child) {
   margin-bottom: 5px;
 }
 
@@ -93,4 +92,47 @@ body.home {
 
 .aside {
   display: none;
+}
+
+@media (min-width: 481px) {
+  /* PRODUCTOS */
+  .main-section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .section-article__productos {
+    width: 50%;
+    padding: 5px;
+  }
+
+  /* PUBLICIDAD */
+  .publicidad {
+    display: flex;
+    background-color: unset;
+    justify-content: space-around;
+  }
+
+  .publicidad__img {
+    width: 45%;
+    margin-bottom: 5px;
+  }
+
+  /* TUTORIALES */
+  .section-article__tutorial {
+    width: 49.8%;
+  }
+
+  .tutoriales {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+
+  .section-article__tutorial-img {
+    width: 30%;
+  }
 }
