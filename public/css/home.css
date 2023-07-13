@@ -169,6 +169,10 @@ body.home {
     width: 50%;
   }
 
+  .section-article__tutorial{
+    margin-bottom: 0;
+  }
+
   .publicidad {
     display: flex;
     flex-direction: column;
