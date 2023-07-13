@@ -15,10 +15,6 @@
     align-items: center;
 }
 
-.header__logo {
-  margin-left: 10px;
-}
-
 .header-nav__menu {
   display: none;
 }
@@ -36,6 +32,10 @@
   display: none;
   align-items: center;
   margin-right: 10px;
+}
+
+.fa-solid{
+  margin-left: 10px;
 }
 
 .header-nav__link{
