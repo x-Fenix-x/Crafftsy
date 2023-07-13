@@ -81,6 +81,11 @@ body.home {
   border: solid 1px var(--colorBordes);
 }
 
+.section-article__tutorial:last-child{
+  margin-bottom: 10px;
+}
+
+
 .section-article__tutorial-img {
   width: 35%;
   height: 80%;
@@ -94,7 +99,6 @@ body.home {
 .aside {
   display: none;
   width: 20%;
-  display: flex;
   margin: 0;
 }
 
