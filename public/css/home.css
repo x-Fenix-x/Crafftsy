@@ -2,6 +2,7 @@ body.home {
   background-image: url(/img/bg-2.png);
   width: 100%;
   min-height: 100vh;
+  display: flex;
 }
 
 .main {
@@ -50,7 +51,7 @@ body.home {
   font-size: 12px;
 }
 
-.main__titulos {
+.home-titulo {
   background-color: #ffffff;
   margin-top: 10px;
   margin-bottom: 10px;
@@ -92,6 +93,9 @@ body.home {
 
 .aside {
   display: none;
+  width: 20%;
+  display: flex;
+  margin: 0;
 }
 
 @media (min-width: 481px) {
@@ -134,5 +138,40 @@ body.home {
 
   .section-article__tutorial-img {
     width: 30%;
+  }
+}
+
+@media (min-width: 1024px) {
+  main .home-titulo,
+  main .tutoriales,
+  main .publicidad {
+    display: none;
+  }
+
+  .main {
+    width: 60%;
+    float: left;
+    margin-left: 20px;
+    margin-bottom: 10px;
+  }
+
+  .aside {
+    width: 36%;
+    display: flex;
+    flex-direction: column;
+    float: right;
+  }
+
+  .home-titulo {
+    width: 50%;
+  }
+
+  .publicidad {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .publicidad {
+    flex-direction: column;
   }
 }
