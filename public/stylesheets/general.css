@@ -21,6 +21,8 @@ a {
 
 body {
   font-family: 'lato';
-  background-image: url('/img/bg-2.png');
+  background-image: url('/images/bg-2.png');
   color: #1c2833;
+  max-width: 980px;
+  margin: 0 auto;
 }

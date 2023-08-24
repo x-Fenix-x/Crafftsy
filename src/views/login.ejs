@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<%- include('partials/head') %>
+
+    <body class="login">
+        <%- include('partials/header') %>
+            <main class="container">
+                <div class="row">
+                    <div class="col-12 col-md-10 col-lg-8 mx-auto">
+                        <div class="card">
+                            <div class="card-header">
+                                <h4>Iniciá sesión</h4>
+                            </div>
+                            <div class="card-body">
+                                <form action="" class="row">
+                                    <div class="col-12 col-md-6 mb-3">
+                                        <label class="form-label" for="email">Email</label>
+                                        <input class="form-control" id="email" type="email" name="email">
+                                    </div>
+                                    <div class="col-12 col-md-6 mb-3">
+                                        <label class="form-label" for="password">Contraseña</label>
+                                        <input class="form-control" id="password" type="password" name="password">
+                                    </div>
+                                    <div class="col-12 col-md-6">
+                                        <div class="d-flex justify-content-center">
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="checkbox" value="" name="remember"
+                                                    id="remember">
+                                                <label class="form-check-label" for="remember">
+                                                    Recordame
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-6 text-end">
+                                        <button type="submit" class="buttons buttons__primary">Ingresá</button>
+                                    </div>
+
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </main>
+    </body>
+
+</html>

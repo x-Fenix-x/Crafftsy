@@ -1,0 +1,152 @@
+.home__box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 10px;
+}
+
+.home__main {
+  background-color: #ffffff;
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+.home__main__article {
+  width: 100%;
+}
+
+.home__main__article img {
+  width: 100%;
+}
+
+.home__main__article--description {
+  margin: 20px 0;
+}
+
+.home__main__article--description h4 {
+    margin: 20px 0;
+  }
+
+.home__main__article--description a {
+  background-color: orangered;
+  display: inline-block;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+/* aside*/
+
+.home__aside {
+  width: 100%;
+}
+
+.home__aside__section {
+  margin-bottom: 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.home__aside__section h3 {
+  background-color: #ffffff;
+  border: 1px solid #acd8e6;
+  padding: 10px;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.home__aside__section__article {
+  background-color: #ffffff;
+  border: 1px solid #acd8e6;
+  border-bottom: none;
+  padding: 10px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  width: 100%;
+}
+
+.home__aside__section__article:last-child {
+  border-bottom: 1px solid #acd8e6;
+}
+
+.home__aside__section--ads {
+  padding: 10px;
+  background-color: #ffffff;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  width: 100%;
+}
+
+.home__aside__section--ads img {
+  width: 100%;
+}
+
+/* TABLET */
+@media (min-width: 481px) {
+  /* main */
+  .home__box {
+    padding: 0 20px;
+  }
+  .home__main {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .home__main__article {
+    width: 49%;
+  }
+
+  /* aside */
+
+  .home__aside__section {
+    justify-content: space-between;
+    row-gap: 15px;
+  }
+
+  .home__aside__section__article {
+    width: 49%;
+    border: 1px solid #acd8e6;
+  }
+
+  .home__aside__section--ads img {
+    width: 49%;
+  }
+}
+
+@media (min-width: 769px) {
+  .home__box {
+    padding: 0;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+
+  }
+
+  .home__main {
+    width: 69%;
+  }
+
+  .home__aside {
+    width: 29%;
+  }
+
+  .home__aside__section {
+    row-gap: 0;
+  }
+
+  .home__aside__section__article {
+    width: 100%;
+    border-bottom: none;
+  }
+  .home__aside__section__article:last-child {
+    border-bottom: 1px solid #acd8e6;
+  }
+
+  .home__aside__section--ads img {
+    width: 100%;
+  }
+}
